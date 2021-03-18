@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DMSimple</string>
+    <string name="admin_login">DMSimple Admin Login</string>
+    <string name="facebook_login">Login in with Facebook</string>
+    <string name="google_login">Login in with Google</string>
+    <string name="normal_login">Login</string>
+    <string name="type_email">Type your Email address</string>
+    <string name="type_password">Type your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="facebook_app_id">186194829709396</string>
+    <string name="fb_login_protocol_scheme">fb186194829709396</string>
+
+
+</resources>

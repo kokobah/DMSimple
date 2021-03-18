@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39B8C8CA"
+    tools:context=".Register_User">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="232dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="282dp">
+
+
+            <TextView
+                android:id="@+id/new_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/muli_black"
+                android:text="Create Admin Account"
+                android:textAlignment="center"
+                android:textColor="#098D9E"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/new_user_subtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/muli_bold"
+                android:text="Create a new DMSimple account"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="390dp"
+                android:layout_height="197dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/dms_logo_foreground" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/create_user_box"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="22dp"
+                android:layout_marginBottom="25dp">
+
+                <EditText
+                    android:id="@+id/full_name"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="First and Last Name"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/new_email"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="Email"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/first_password"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="Password"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/EmpId"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="Employee ID"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/new_number"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="Phone number"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/new_address"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:fontFamily="@font/muli"
+                    android:inputType="text"
+                    android:text="Address"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:id="@+id/btnregister_user"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="#098D9E"
+                    android:text="Create Account" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
